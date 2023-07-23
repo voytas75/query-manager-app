@@ -1,0 +1,9 @@
+CREATE TABLE queries (
+    queryId INTEGER PRIMARY KEY AUTOINCREMENT,
+    queryText TEXT NOT NULL,
+    creationDate TEXT NOT NULL,
+    lastEditDate TEXT NOT NULL,
+    version INTEGER NOT NULL,
+    category TEXT NOT NULL,
+    submittedBy TEXT NOT NULL
+);
